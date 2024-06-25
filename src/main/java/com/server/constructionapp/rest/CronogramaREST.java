@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = {"http://localhost:3000", "https://constructora-code-frontend.vercel.app"})
 @RestController
 @RequestMapping("/api/v2")
 public class CronogramaREST {

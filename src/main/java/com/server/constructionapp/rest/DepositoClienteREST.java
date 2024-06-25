@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = {"http://localhost:3000", "https://constructora-code-frontend.vercel.app"})
 @RestController
 @RequestMapping("/api/v2")
 public class DepositoClienteREST {

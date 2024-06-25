@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = {"http://localhost:3000", "https://constructora-code-frontend.vercel.app"})
 @RestController
 @RequestMapping("/api/v2")
 public class DatosClienteREST {
